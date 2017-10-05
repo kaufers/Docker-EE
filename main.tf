@@ -52,10 +52,10 @@ variable name {
 
 variable manager_count {
     description = "Initial number of manager nodes"
-    default = 1
+    default = 3
 }
 
 variable worker_count {
     description = "Initial number of worker nodes"
-    default = 1
+    default = 3
 }
