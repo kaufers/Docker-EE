@@ -29,19 +29,19 @@ resource "ibm_compute_vm_instance" "manager" {
 }
 
 variable softlayer_username {
-    description = "Softlayer Username"
+    description = "To get your IBM Bluemix Infrastructure (Softlayer) user name, log in to SoftLayer, select your profile, and locate your API Username under the API Access Information section."
 }
 
 variable softlayer_api_key {
-    description = "Softlayer API Key"
+    description = "To get your IBM Bluemix Infrastructure (SoftLayer) API key, log in to SoftLayer, select your profile, and locate your Authentication Key under the API Access Information section."
 }
 
 variable ssh_label {
-    description = "Softlayer Public SSH key label"
+    description = "Your IBM Bluemix Infrastructure (SoftLayer) SSH key label for the manager node. To create a key, log in to SoftLayer and select Devices > Manager > SSH Keys > Add."
 }
 
 variable datacenter {
-    description = "Softlayer datacenter (i.e. dal10)"
+    description = "The location (data center) you deploy the Docker EE swarm to, such as dal10 or dal12."
     default = "dal10"
 }
 
@@ -51,11 +51,11 @@ variable name {
 }
 
 variable manager_count {
-    description = "Initial number of manager nodes"
+    description = "Deploy 1, 3, or 5 manager nodes."
     default = 3
 }
 
 variable worker_count {
-    description = "Initial number of worker nodes"
+    description = "Deploy a minimum of 1 and maximum of 10 worker nodes."
     default = 3
 }
