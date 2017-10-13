@@ -1,6 +1,7 @@
 # Docker Swarm Demo
 
-Demo repository for Docker swarm. Introduction block here.
+Demo repository for Docker swarm. Detailed instructions for setup will be made available when beta is released.
+
 
 ### Variables
 
