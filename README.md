@@ -4,8 +4,8 @@ With Docker Enterprise Edition for IBM Cloud's integration with [IBM Cloud Schem
 * Quickly [create an environment](#creating_your_swarm_environment) that simplifies infrastructure reuse
 * Easily [validate and deploy resources](#deploying_resources_to_your_swarm_environment) to your Docker swarm
 
-_Overview of Docker EE for IBM Cloud_
-![Docker EE for IBM Cloud Overview](img/d4ic-ov.png)
+_Overview of Docker for IBM Cloud_
+![Docker for IBM Cloud Overview](img/d4ic-ov.png)
 
 ## Creating your swarm environment
 With IBM Cloud Schematics, you can create your Docker for IBM Cloud swarm environment by entering the appropriate variables.
